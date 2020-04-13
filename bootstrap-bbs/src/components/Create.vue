@@ -41,7 +41,7 @@ export default {
             let items = data.Content.sort((a, b) => {return b.content_id - a.content_id})
             const content_id = items[0].content_id + 1
             data.Content.push({
-                content_id: contentId,
+                content_id: content_Id,
                 user_Id: this.userId,
                 title: this.subject,
                 context: this.context,
@@ -49,14 +49,14 @@ export default {
                 updated_at: null
             })
             this.$router.push({
-                path: '/board/free'
+                path: '/board/free/'
             })
         },
         updateContent() {
-            this.updatedContent.tile = this.subject;
-            this.updatedContent.context = this.context;
+            this.updateObject.title = this.subject;
+            this.updateObject.context = this.context;
             this.$router.push({
-                path: '/board/free'
+                path: '/board/free/'
             })
         },
         cancel() {
