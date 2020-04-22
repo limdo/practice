@@ -2,17 +2,17 @@ export default {
   User: [
     {
       user_id: 1,
-      name: 'limdo',
+      name: 'Limdo',
       created_at: '2018-09-11 11:42:11'
     },
     {
       user_id: 2,
-      name: '임도형',
+      name: '아이린',
       created_at: '2018-09-11 11:42:11'
     },
     {
       user_id: 3,
-      name: '림도',
+      name: '조이',
       created_at: '2018-09-11 11:42:11'
     },
   ],
@@ -180,7 +180,7 @@ export default {
     {
       content_id: 21,
       user_id: 2,
-      title: '기호1번 임도형 민생경제 살리자!',
+      title: '생일 축하해주신 여러분 감사합니다!',
       context: '^^',
       created_at: '2019-03-29 13:11:42',
       updated_at: null
@@ -188,7 +188,7 @@ export default {
     {
       content_id: 22,
       user_id: 1,
-      title: 'osu는 망겜이다',
+      title: '개린이 르라나의 강의 알람표',
       context: '아직 미정입니다.',
       created_at: '2019-01-01 13:11:42',
       updated_at: null
@@ -196,7 +196,7 @@ export default {
     {
       content_id: 23,
       user_id: 3,
-      title: 'pdm0205 바보',
+      title: '레드벨벳 많이 사랑해 주세요^^',
       context: '화이팅!',
       created_at: '2019-01-02 13:11:42',
       updated_at: null
@@ -204,7 +204,7 @@ export default {
     {
       content_id: 24,
       user_id: 2,
-      title: '임도형',
+      title: '생일 축하해주신 여러분 감사합니다!',
       context: '^^',
       created_at: '2019-03-29 13:11:42',
       updated_at: null
@@ -212,7 +212,7 @@ export default {
     {
       content_id: 25,
       user_id: 1,
-      title: '123',
+      title: '개린이 르라나의 강의 알람표',
       context: '아직 미정입니다.',
       created_at: '2019-01-01 13:11:42',
       updated_at: null
@@ -220,7 +220,7 @@ export default {
     {
       content_id: 26,
       user_id: 3,
-      title: 'Bootstrap in Vue.js',
+      title: '레드벨벳 많이 사랑해 주세요^^',
       context: '화이팅!',
       created_at: '2019-01-02 13:11:42',
       updated_at: null
@@ -228,7 +228,7 @@ export default {
     {
       content_id: 27,
       user_id: 2,
-      title: '기모리',
+      title: '생일 축하해주신 여러분 감사합니다!',
       context: '^^',
       created_at: '2019-03-29 13:11:42',
       updated_at: null
@@ -236,7 +236,7 @@ export default {
     {
       content_id: 28,
       user_id: 1,
-      title: '아아색스',
+      title: '개린이 르라나의 강의 알람표',
       context: '아직 미정입니다.',
       created_at: '2019-01-01 13:11:42',
       updated_at: null
@@ -244,7 +244,7 @@ export default {
     {
       content_id: 29,
       user_id: 3,
-      title: '헬로',
+      title: '레드벨벳 많이 사랑해 주세요^^',
       context: '화이팅!',
       created_at: '2019-01-02 13:11:42',
       updated_at: null
@@ -252,7 +252,7 @@ export default {
     {
       content_id: 30,
       user_id: 2,
-      title: '하이',
+      title: '생일 축하해주신 여러분 감사합니다!',
       context: '^^',
       created_at: '2019-03-29 13:11:42',
       updated_at: null

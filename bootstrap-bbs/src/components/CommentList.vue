@@ -8,28 +8,33 @@
 </template>
 
 <script>
-import data from '@/data'
+import data from "@/data";
 import CommentListItem from './CommentListItem';
 import CommentCreate from './CommentCreate';
-
+import {findComment} from '../service'
 export default {
-    name: "CommentList",
-    props: {
-        contentId: Number
-    },
-    components: {
-        CommentListItem,
-        CommentCreate,
-    },
-    data() {
-        return {
-            comments: data.Comment.filter(item => item.content_id === this.contentId),
-        }
-    },
-    methods: {
-        reloadComments() {
-            this.comments = data.Comment.filter(item => item.content_id === this.contentId)
-        }
+  name: "CommentList",
+  props: {
+    contentId: Number
+  },
+  components: {
+    CommentListItem,
+    CommentCreate,
+  },
+  async created() {
+    const ret = await findComment({content_id: this.contentId})
+    this.comments = ret.data
+  },
+  data() {
+    return {
+      comments: [],
     }
-}
+  },
+  methods: {
+    async reloadComments() {
+      const ret = await findComment({content_id: this.contentId})
+      this.comments = ret.data
+    }
+  }
+};
 </script>
